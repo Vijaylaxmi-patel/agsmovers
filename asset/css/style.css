@@ -194,10 +194,15 @@ p {
 .interbox p {
   color: #3b3b3d;
 }
+
 .interbox a,
 h2,
 h3 {
-  color: #920606;
+  color: #a70505;
+}
+.interbox h3 {
+  font-weight: 200px;
+  font-size: 22px;
 }
 .interbox q {
   font-size: 30px;
@@ -208,9 +213,11 @@ h3 {
 .individual {
   position: relative;
 }
-
+.individual p {
+  font-size: 14px;
+}
 .heading h3 {
-  background-color: #b00000;
+  background-color: #d10202;
   color: white;
   font-weight: 300;
 }
@@ -227,7 +234,7 @@ h3 {
   height: 0;
   left: 100%;
   position: absolute;
-  border-top: 40px solid #b00000;
+  border-top: 40px solid #d10202;
   border-right: 15px solid transparent;
   border-bottom: 0px solid transparent;
 }
@@ -239,15 +246,56 @@ h3 {
   height: 0px;
   right: 100%;
   position: absolute;
-  border-top: 22px solid #b00000;
+  border-top: 22px solid #d10202;
   border-left: 17px solid transparent;
   border-bottom: 0px solid transparent;
 }
-.individua .imgbox img {
+.individual .btn {
+  border: 2px solid #be0303;
+  color: #be0303;
+  border-radius: 0%;
+  padding: 8px 25px;
+  margin: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: -2px;
+}
+.individual .btn:hover {
+  background-color: #af0202;
+  color: white;
+}
+.individual .btn.active {
+  background-color: #af0202;
+  color: white;
+}
+.individual .btn.active:hover {
+  background-color: #af0202;
+}
+.imagebox {
   overflow: hidden;
 }
-.individua .imgbox img:hover {
-  transition: 1s all;
-  transform: scale(1.2);
+
+.imagebox img:hover {
+  transition: 1s;
+  transform: scale(1.1);
 }
+
 /* individual corporation section end */
+/* <!-- domestic section start--> */
+.domestic {
+  background-color: #34313a;
+}
+.domestic p {
+  color: #8a8a8b;
+}
+.domestic h5 {
+  font-size: 18px;
+  text-align: center;
+}
+.domestic {
+  text-align: center;
+}
+.domestic img:hover {
+  transform: scale(1.1);
+}
+/* <!-- domestic section end--> */
