@@ -6,6 +6,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.fw-6 {
+  font-weight: 600;
+}
+
 header .tophead {
   background: #34313a;
   width: 100%;
@@ -254,9 +258,9 @@ h3 {
   border: 2px solid #be0303;
   color: #be0303;
   border-radius: 0%;
-  padding: 8px 25px;
-  margin: 18px;
-  font-size: 14px;
+  padding: 8px 20px;
+  margin: 10px;
+  font-size: 12px;
   font-weight: bold;
   margin-left: -2px;
 }
@@ -292,10 +296,86 @@ h3 {
   font-size: 18px;
   text-align: center;
 }
-.domestic {
-  text-align: center;
+.domestic img {
+  width: 80%;
+}
+.domestic small a {
+  margin-left: 25px;
 }
 .domestic img:hover {
   transform: scale(1.1);
 }
 /* <!-- domestic section end--> */
+
+/* <!-- client section start --> */
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.client .card {
+  margin: 20px;
+}
+.client .card .card-body {
+  margin-left: 10px;
+}
+.client img {
+  width: 130px;
+}
+/* <!-- client section end --> */
+
+/* <!-- world section start --> */
+.world .btn {
+  border: 2px solid #be0303;
+  color: #fff;
+  border-radius: 0%;
+  padding: 8px 20px;
+  background-color: #920606;
+  font-size: 14px;
+  font-weight: bold;
+}
+.world h1 {
+  font-size: 50px;
+}
+.world img {
+  width: 100%;
+}
+/* <!-- world section start --> */
+
+/* <!-- network section start  --> */
+.network img {
+  width: 100%;
+}
+.network .btn {
+  border: 2px solid #be0303;
+  color: #920606;
+  border-radius: 0%;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px;
+}
+.network .btn:hover {
+  background-color: #af0202;
+  color: white;
+}
+.network .btn.active {
+  background-color: #af0202;
+  color: white;
+}
+.network .btn.active:hover {
+  background-color: #af0202;
+}
+/* <!-- network section end  --> */
+
+/* footer section start  */
+.footer ul li {
+  text-align: left;
+}
+.footer ul li a {
+  font-size: 14px;
+}
+.footer h5 {
+  margin-left: -100px;
+}
+/* footer section start  */
