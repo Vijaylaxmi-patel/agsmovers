@@ -230,6 +230,7 @@ h3 {
   margin-top: 30px;
   padding: 5px 10px 2px;
   margin-left: -17px;
+  z-index: 9;
 }
 .individual .heading h3::after {
   content: "";
@@ -374,6 +375,9 @@ h3 {
 }
 .footer ul li a {
   font-size: 14px;
+}
+.footer ul li:hover {
+  color: white;
 }
 .footer h5 {
   margin-left: -100px;
