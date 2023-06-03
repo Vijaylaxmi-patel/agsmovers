@@ -331,7 +331,7 @@ h3 {
 }
 .domestic h5 {
   font-size: 18px;
-  text-align: center;
+  text-align: justify;
 }
 .domestic img {
   width: 80%;
@@ -436,4 +436,52 @@ h3 {
   background-color: #920606;
   color: #fff;
 }
-/* footer section start  */
+/* footer section end  */
+
+/* network page start */
+.ournetwork ul li:hover a {
+  color: #b00000;
+}
+/* network page start */
+
+/* news pages start */
+.card-body .heading2 {
+  background-color: #fff;
+  position: absolute;
+  margin-top: -170px;
+  border: 1px solid rgb(156, 154, 154);
+  margin-left: -25px;
+  padding: 8px 10px 0px 10px;
+}
+.card-body .heading2 span {
+  font-size: 18px;
+}
+.news .btn {
+  border: 1px solid maroon;
+  border-radius: 0%;
+  padding: 5px 25px 5px 25px;
+}
+.news .btn:hover {
+  background-color: #720404;
+  color: #fff;
+}
+.news .card p a:hover {
+  color: #151516;
+}
+.news a:hover {
+  color: #151516;
+}
+
+/* news pages end */
+/* INTERNATIONAL MOVERS PAGE START  */
+.internationalmoves .btn {
+  border: 1px solid maroon;
+  border-radius: 0;
+  margin-left: -250px;
+  background-color: #920606;
+  color: white;
+}
+.moving-abroad {
+  background-color: #3a3939;
+}
+/* INTERNATIONAL MOVERS PAGE START  */
