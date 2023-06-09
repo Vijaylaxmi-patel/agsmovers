@@ -6,3 +6,15 @@ actvlink.forEach(a => {
         this.classList.add('active');
     });
 });
+//tophead megameu//
+//mega menu active on click section start//
+function showhide(){
+  let click=document.querySelectorAll(".mega-menu"); 
+   if(click.style.display == 'none'){
+    click.style.dispaly ="block";
+   }
+   else{
+    click.style.display = 'none';
+   }
+}
+//mega menu active on section end//

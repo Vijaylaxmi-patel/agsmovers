@@ -1,3 +1,7 @@
+@font-face {
+  font-family: abc;
+  src: url(../fonts/arial.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -137,12 +141,12 @@ nav li a {
   color: white;
 }
 /*ags-choosing mega-menu start  */
-.mega-menu {
+/* .mega-menu {
   display: none;
-}
-.nav-item:hover .mega-menu {
+} */
+.mega-menu {
   top: 97px;
-  display: block;
+  display: none;
   position: absolute;
   left: 0;
   right: 0;
@@ -172,10 +176,11 @@ nav li a {
   font-size: 15px;
 }
 /* ags-choosing mega-menu end */
+
 /* navbar section end */
 
 /* carousel section start */
-.carousel-inner .carousel-item {
+/* .carousel-inner .carousel-item {
   height: 500px;
 }
 .carousel-inner .carousel-item img {
@@ -223,7 +228,52 @@ p {
 .carousel-indicators {
   bottom: 3.5rem;
 }
+
+
 /* carousel section end */
+.carousel-caption {
+  margin-bottom: -19px;
+  height: 550px;
+  width: 800px;
+  margin-left: 380px;
+}
+.carousel-caption h3 {
+  margin-top: 130px;
+  margin-left: 170px;
+}
+.carousel-caption p {
+  margin-left: 290px;
+  font-size: 15px;
+}
+.carousel-caption .btn {
+  border-radius: 2px;
+  padding: 5px 20px 5px 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #fff;
+  border: 1px solid white;
+}
+.carousel-caption .btn #active {
+  background-color: #920606;
+}
+.caption .btn:hover {
+  background-color: rgb(187, 7, 7);
+}
+.carousel-inner .carousel-item {
+  height: 500px;
+}
+.carousel-inner .carousel-item img {
+  animation: zoomin 20s infinite;
+}
+@keyframes zoomin {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
 /* internation removal secttion */
 .interbox {
   min-height: 200px;
@@ -247,6 +297,7 @@ h3 {
 .interbox q {
   font-size: 30px;
 }
+*/
 /* internation removal secttion end */
 
 /* individual corporation section start */
@@ -484,4 +535,89 @@ h3 {
 .moving-abroad {
   background-color: #3a3939;
 }
+/* how do section start  */
+.card-body .heading3 {
+  background-color: rgb(163, 3, 3);
+  width: 328px;
+  position: absolute;
+  margin-top: -60px;
+  border: 1px solid transparent;
+  padding: 10px 30px 5px 30px;
+  text-align: center;
+  margin-left: -31px;
+}
+.card-body .heading3::before {
+  content: "";
+  top: 52px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  right: 100%;
+  position: absolute;
+  border-top: 20px solid #af0505;
+  border-left: 15px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+
+/* .card-body .heading3::after {
+  content: "";
+  top: 52px;
+  right: 0px;
+  width: 0px;
+  height: 0px;
+  left: 100%;
+  position: absolute;
+  border-top: 0px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid red;
+} */
+/* how do section end  */
+
+/* <!-- what is section start  -->  */
+.shape1 {
+  margin-top: 25px;
+  height: 210px;
+  position: absolute;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 80% 105%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 88% 105%, 0% 100%);
+  width: 580px;
+  background-color: rgb(241, 234, 234);
+}
+.img-shape1 {
+  height: 250px;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 80% 105%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 80% 105%, 0% 100%);
+  width: 370px;
+  z-index: 399;
+  margin-left: 170px;
+}
+.shape2 {
+  margin-top: 20px;
+
+  height: 210px;
+  position: absolute;
+  -webkit-clip-path: polygon(33% 0, 100% 0%, 100% 99%, 0% 100%);
+  clip-path: polygon(20% 0, 100% 0%, 100% 99%, 2% 100%);
+  width: 600px;
+  background-color: rgb(241, 234, 234);
+}
+.img-shape2 {
+  height: 250px;
+  position: relative;
+  -webkit-clip-path: polygon(33% 0, 100% 0%, 100% 99%, 0% 100%);
+  clip-path: polygon(33% 0, 100% 0%, 100% 99%, 0% 100%);
+  width: 370px;
+  z-index: 399;
+  margin-left: 50px;
+}
+/* <!-- what is section end -->  */
+/* <!-- complementry service section start --> */
+.complementry {
+  background-color: #3b3b3d;
+}
+.complementry p {
+  font-family: abc;
+}
+/* <!-- complementry service section end --> */
 /* INTERNATIONAL MOVERS PAGE START  */

@@ -24,7 +24,7 @@
 
   </head>
   <body>
-  <div class="myheader">
+  
     <header>
       <div class="tophead">
         <div class="container">
@@ -44,27 +44,18 @@
                     <li><a href=""><i class="fa-sharp fa-handshake"></i> Careers</a></li>
                     <li><a href=""><i class="fa-sharp fa-credit-card"></i> Payment</a></li>
                     <li><a href=""><i class="fa-solid fa-user"></i> Log in</a></li>
-                    <!-- <li><a href=""><img src="./asset/en.png"> English &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fa-sharp  fa-caret-down"></i></a>
-                      <div class="sub-menu">
-                        <ul class="list-unstyled d-block">
-                          <li><a href=""><img src="./asset/en.png"> French</a></li>
-                          <li><a href=""><img src="./asset/en.png"> USA</a></li>
-                          <li><a href=""><img src="./asset/en.png"> UAE</a></li>
-                          <li><a href=""><img src="./asset/en.png"> Dutch</a></li>
-                        </ul>
-                    </div>
-                  </li> -->
+                   
                   <div class="dropdown">
                     <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" id="button" style="color:#fff; font-size:12px;">
-                      <img src="./asset/en.png">
+                      <img src="./asset/img/en.png">
                   English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </button>
                      <div class="dropdown-content">
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#"><img src="./asset/fr.png"> Francais</a></li>
-                      <li><a class="dropdown-item" href="#"><img src="./asset/de.png"> Deutsch</a></li>
-                      <li><a class="dropdown-item" href="#"><img src="./asset/nl.png"> Dutch</a></li>
-                      <li><a class="dropdown-item" href="#"><img src="./asset/nl.png"> Dutch</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./asset/img/fr.png"> Francais</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./asset/img/de.png"> Deutsch</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./asset/img/nl.png"> Dutch</a></li>
+                      <li><a class="dropdown-item" href="#"><img src="./asset/img/nl.png"> Dutch</a></li>
                     </ul>
                    </div>
                   </div>
@@ -76,7 +67,7 @@
         </div>
       </div>
     </header>
-  </div>
+  
 
     <!-- navbar 2nd-->
     <nav class="navbar navbar-expand-lg  bg-white  shadow-sm">
@@ -90,8 +81,8 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">HOME</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">CHOOSING AGS</a>
+            <li class="nav-item ">
+              <a class="nav-link" href="#" onclick="showhide()">CHOOSING AGS</a>
               <!--mega-menu start-->
                <div class="mega-menu">
                  <div class="container">
@@ -361,7 +352,150 @@
     <!--navbar end-->
 
      <!-- slider Section Start -->
-     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<!-- carousel start -->
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div
+            class="carousel-indicators"
+            style="margin-left: 850px; margin-bottom: 150px"
+          >
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./asset/img/slider1.jpg"
+                alt="Los Angeles"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div
+                class="carousel-caption"
+                style="background-image: url('./asset/img/slider-img.png')"
+              >
+                <h3 style="color:white;">The excellence of our staff</h3>
+                <p style="border: 1px solid maroon; width: 10%"></p>
+                <p style="text-align: left">
+                  <b>Packing is our unparalleled expertise</b>. AGS packers
+                  are<br />
+                  trained on specific techniques to ensure all your items arrive
+                  in<br />
+                  pristine condition.
+                </p>
+                <a
+                  href="#"
+                  class="btn" id="active"
+                  style="background-color:#b00000;"
+                >
+                  FIND A BRANCH</a
+                >
+                <a
+                  href="#"
+                  class="btn "
+                  
+                >
+                  GET A QUOTE</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./asset/img/slider3.png"
+                alt="Chicago"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div
+                class="carousel-caption"
+                style="background-image: url('./asset/img/slider-img.png')"
+              >
+                <h3 style="margin-left: 190px; color:white">
+                  Get a quote with a virtual visit
+                </h3>
+                <p style="border: 1px solid maroon; width: 10%"></p>
+                <p style="text-align: left">
+                  <b>Book a virtual visit when you request a removal quote</b>.
+                  Our<br />
+                  newly developed application enables our removal experts to<br />
+                  assist you remotely with a virtual survey at home, free of
+                  <br />charge.
+                </p>
+                <a
+                  href="#"
+                  class="btn text-light"
+                  style="border: 1px solid white; background-color: maroon"
+                >
+                  FIND A BRANCH</a
+                >
+                <a
+                  href="#"
+                  class="btn bg-transparent text-light"
+                  style="border: 1px solid white"
+                >
+                  GET A QUOTE</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./asset/img/slider5.jpg"
+                alt="New York"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div
+                class="carousel-caption"
+                style="background-image: url('./asset/img/slider-img.png')"
+              >
+                <h3 style="margin-left: 100px;color:white;">Our unique network</h3>
+                <p style="border: 1px solid maroon; width: 10%"></p>
+                <p style="text-align: left">
+                  To better serve you, we offer seamless service experiences<br />
+                  worldwide. Our network covers
+                  <b
+                    >146 locations across 97<br />
+                    countries</b
+                  >
+                </p>
+                <a
+                  href="#"
+                  class="btn text-light"
+                  id="button1"
+                  style="border: 1px solid white; background-color: maroon"
+                >
+                  FIND A BRANCH</a
+                >
+                <a
+                  href="#"
+                  class="btn bg-transparent text-light"
+                  id="button"
+                  style="border: 1px solid;"
+                >
+                  GET A QUOTE</a
+                >
+              </div>
+            </div>
+          </div>
+
+     <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -414,8 +548,7 @@
 
           </div>
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      -->      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
@@ -423,7 +556,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+    </div> 
     <!-- Slider Section End -->
 <!-- international removal section start -->
 <div class="container">
